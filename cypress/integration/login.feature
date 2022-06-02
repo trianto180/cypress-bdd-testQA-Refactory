@@ -5,5 +5,7 @@ Feature: Login to Application
 
     Scenario: Valid Login
         Given I open login page
-        When I Submit login
+        When I type username
+        And I type password
+        And I clicks on the button login
         Then I should see homepage
