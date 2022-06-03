@@ -2,7 +2,7 @@
 import {Given, When, And,  Then } from "cypress-cucumber-preprocessor/steps";
 import LoginPage from './loginPage';
 
-Given('I open login page', () =>  {
+Given('I open home page', () =>  {
     LoginPage.visit()
 })
 

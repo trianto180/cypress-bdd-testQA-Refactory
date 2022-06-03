@@ -4,8 +4,6 @@ Feature: Login to Application
     I want to login into application
 
     Scenario: Valid Login
-        Given I open home page
+        Given I open a page
         When I type username
-        And I type password
-        And I clicks on the button login
         Then I should see homepage
